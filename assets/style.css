@@ -1,8 +1,16 @@
 .bgimage {
     height:100vh;
-    background-image: url(../images/background.jpg);
+    /* background-image: url(../images/background.jpg); */
     background-size:cover;
-    position:relative;
+    position: relative;
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+        ),
+        /* bottom, image */
+        url(../images/background.jpg);
 }
 /* text css above hero image*/
 .hero_title {
@@ -17,7 +25,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black;
+    color: white;
 }
 .imageAboutPage {
     width: 100%;
