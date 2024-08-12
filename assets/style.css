@@ -33,6 +33,9 @@
 .servicesText.card {
     height: 280px;
     cursor: pointer;
+    -webkit-box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.16);
+-moz-box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.16);
+box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.16);
   }
 .servicesIcon {
     font-size: 36px;
@@ -70,9 +73,13 @@
 }
 
 #about, #resume, #portfolio, #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
+    /* margin-top: 1.5rem; */
+    padding-top: 1.5rem;
 }
 /* #contact {
     padding-bottom: 4rem;
 } */
+
+body{
+    color:#EDEEF0;
+}
