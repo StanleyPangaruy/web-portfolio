@@ -77,10 +77,10 @@
     text-align: center;
 }
 
-#about, #resume, #portfolio, #contact {
+/* #about, #resume, #portfolio, #contact { */
     /* margin-top: 1.5rem; */
     /* padding-top: 1.5rem; */
-}
+/* } */
 /* #contact {
     padding-bottom: 4rem;
 } */
